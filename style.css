@@ -1,0 +1,45 @@
+body{
+    background-color: #ffe6f2;
+    color: #5a4a52;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+
+.homepage{
+    
+    /* margin-top: 50px; */
+    margin: 50px auto;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+.explain{
+    font-size: 25px;
+}
+
+.joinlist{
+    margin: auto;
+}
+
+button{
+    padding: 15px 30px;
+    border: absolute black 2px;
+    border-radius: 30px;
+    background-color: pink;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fa7ebc;
+    transition: 0.5s;
+}
+
+.kuromi{
+    width: 50%;
+}

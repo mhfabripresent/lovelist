@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>Love List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #ffe6f0;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: auto;
+    }
+    h2 {
+      color: #e60073;
+    }
+    #motivo {
+      font-size: 20px;
+      margin: 20px 0;
+      color: #333;
+    }
+    .contador {
+      margin-top: 10px;
+      color: #666;
+      font-size: 14px;
+    }
+    .botoes {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+    button {
+      background: #e60073;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #cc005f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Todos os motivos pelos quais eu amo você💖</h2>
+    <div><img src="img/terceirakurominha.png" alt="foto cute da kuromi no coração"></div>
+    <h2>Eu te amo porque...</h2>
+    <p id="motivo">Clique em "Próximo" para começar a ver a lista!!!</p>
+    
+    <div class="botoes">
+      <button onclick="anteriorMotivo()">⬅️ Anterior</button>
+      <button onclick="proximoMotivo()">➡️ Próximo</button>
+    </div>
+    <div><img src="img/segundakurominha.png" alt="foto cute da kuromi"></div>
+    <div class="contador" id="contador"></div>
+  </div>
+
+</body>
+</html>
